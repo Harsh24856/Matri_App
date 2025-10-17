@@ -1,0 +1,84 @@
+{
+  "predictions": [
+    {
+      "flag_0": 1,
+      "flag_1": 1,
+      "flag_2": 1,
+      "flag_3": 0,
+      "flag_4": 0,
+      "flag_5": 1,
+      "flag_6": 0,
+      "flag_7": 1,
+      "flag_8": 1,
+      "flag_9": 0,
+      "flag_10": 1,
+      "flag_11": 0,
+      "flag_12": 1,
+      "flag_13": 1,
+      "flag_14": 1,
+      "_input_id": 50
+    }
+  ],
+  "probabilities": [
+    {
+      "flag_0": 0.544718,
+      "flag_1": 0.63508,
+      "flag_2": 0.926912,
+      "flag_3": 0.017356,
+      "flag_4": 0.395496,
+      "flag_5": 0.58156,
+      "flag_6": 0.235336,
+      "flag_7": 0.57104,
+      "flag_8": 0.694647,
+      "flag_9": 0.499361,
+      "flag_10": 1,
+      "flag_11": 0.489302,
+      "flag_12": 0.62744,
+      "flag_13": 0.526505,
+      "flag_14": 0.716471,
+      "_input_id": 50
+    }
+  ],
+  "risk": [
+    32.94
+  ],
+  "columns": {
+    "flags": [
+      "flag_0",
+      "flag_1",
+      "flag_2",
+      "flag_3",
+      "flag_4",
+      "flag_5",
+      "flag_6",
+      "flag_7",
+      "flag_8",
+      "flag_9",
+      "flag_10",
+      "flag_11",
+      "flag_12",
+      "flag_13",
+      "flag_14"
+    ],
+    "probabilities": [
+      "flag_0",
+      "flag_1",
+      "flag_2",
+      "flag_3",
+      "flag_4",
+      "flag_5",
+      "flag_6",
+      "flag_7",
+      "flag_8",
+      "flag_9",
+      "flag_10",
+      "flag_11",
+      "flag_12",
+      "flag_13",
+      "flag_14"
+    ]
+  },
+  "input_ids": [
+    50
+  ]
+}
