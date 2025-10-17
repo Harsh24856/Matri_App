@@ -1,1 +1,11 @@
-node_modules
+# React Native / Expo
+node_modules/
+.expo/
+.expo-shared/
+dist/
+web-build/
+android/
+ios/
+.idea/
+.env
+*.log
