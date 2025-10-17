@@ -175,7 +175,7 @@ const styles = StyleSheet.create({
   brandText: { 
     fontSize: 22, 
     fontWeight: "700", 
-    color: "#22C55E",
+    color: "#FF9933", // Saffron
     letterSpacing: 0.5,
   },
 
@@ -189,17 +189,17 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     borderRadius: 24,
     borderWidth: 1.5,
-    borderColor: "#22C55E",
+    borderColor: "#FF9933", // Saffron
     marginRight: 8,
   },
   signInText: { 
-    color: "#22C55E", 
+    color: "#FF9933", // Saffron
     fontWeight: "600", 
     fontSize: 16,
     letterSpacing: 0.3,
   },
   startButton: {
-    backgroundColor: "#22C55E",
+    backgroundColor: "#FF9933", // Saffron
     borderRadius: 24,
     paddingVertical: 10,
     paddingHorizontal: 18,
@@ -222,15 +222,15 @@ const styles = StyleSheet.create({
     paddingVertical: 8,
     paddingHorizontal: 14,
     borderWidth: 1.5,
-    borderColor: "#A7F3D0",
+    borderColor: "#FFDDBB", // Light Saffron
     borderRadius: 30,
-    backgroundColor: "#ECFDF5",
+    backgroundColor: "#FFF7ED", // Very Light Saffron
   },
   avatar: {
     width: 36,
     height: 36,
     borderRadius: 18,
-    backgroundColor: "#22C55E",
+    backgroundColor: "#FF9933", // Saffron
     justifyContent: "center",
     alignItems: "center",
     marginRight: 8,

@@ -95,7 +95,7 @@ export default function Role() {
             ]}
           >
             <LinearGradient
-              colors={["#22c55e", "#16a34a"]}
+              colors={["#FF9933", "#FFDDBB"]} // Saffron to Light Saffron
               start={{ x: 0, y: 0 }}
               end={{ x: 1, y: 1 }}
               style={styles.cardBg}
@@ -132,7 +132,7 @@ export default function Role() {
             ]}
           >
             <LinearGradient
-              colors={["#fb923c", "#f97316"]}
+              colors={["#138808", "#2E7D32"]} // Green to Darker Green
               start={{ x: 0, y: 0 }}
               end={{ x: 1, y: 1 }}
               style={styles.cardBg}
@@ -149,7 +149,7 @@ export default function Role() {
                 </Text>
               </View>
               <View style={[styles.primaryBtn, { backgroundColor: "#fff", paddingVertical: isCompact ? 10 : 12 }]}>
-                <Text style={[styles.primaryBtnText, { color: "#ea580c", fontSize: isCompact ? 13.5 : 14 }]}>
+                <Text style={[styles.primaryBtnText, { color: "#138808", fontSize: isCompact ? 13.5 : 14 }]}>
                   Start Post-Delivery Assessment
                 </Text>
               </View>
@@ -167,7 +167,7 @@ export default function Role() {
               pressed && styles.optionPressed,
             ]}
           >
-            <View style={[styles.smallIcon, { backgroundColor: "#dcfce7" }]}>
+            <View style={[styles.smallIcon, { backgroundColor: "#E8F5E9" }]}>
               <Text style={styles.smallIconText}>📘</Text>
             </View>
             <Text style={[styles.optionTitle, { fontSize: isCompact ? 14.5 : 15 }]}>Field Guide</Text>
@@ -184,7 +184,7 @@ export default function Role() {
               pressed && styles.optionPressed,
             ]}
           >
-            <View style={[styles.smallIcon, { backgroundColor: "#ffedd5" }]}>
+            <View style={[styles.smallIcon, { backgroundColor: "#FFF7ED" }]}>
               <Text style={styles.smallIconText}>📰</Text>
             </View>
             <Text style={[styles.optionTitle, { fontSize: isCompact ? 14.5 : 15 }]}>Health Feed</Text>
@@ -202,7 +202,7 @@ export default function Role() {
             ]}
           >
             <LinearGradient
-              colors={["#dcfce7", "#ffedd5"]}
+              colors={["#E8F5E9", "#FFF7ED"]}
               start={{ x: 0, y: 0 }}
               end={{ x: 1, y: 1 }}
               style={[styles.smallIcon, { justifyContent: "center", alignItems: "center" }]}
@@ -296,7 +296,7 @@ const styles = StyleSheet.create({
       android: { elevation: 1 },
     }),
   },
-  primaryBtnText: { color: "#16a34a", fontWeight: "700", letterSpacing: 0.2 },
+  primaryBtnText: { color: "#FF9933", fontWeight: "700", letterSpacing: 0.2 },
 
   // Options
   optionsGrid: { flexDirection: "row", flexWrap: "wrap", justifyContent: "space-between" },
@@ -322,9 +322,9 @@ const styles = StyleSheet.create({
   footer: { paddingVertical: 16 },
   brandRow: { flexDirection: "row", alignItems: "center", gap: 8, marginBottom: 4 },
   brandLogo: { fontSize: 24 },
-  brandText: { fontWeight: "800", color: "#86efac", letterSpacing: 0.3 },
+  brandText: { fontWeight: "800", color: "#FFDDBB", letterSpacing: 0.3 },
   footerPara: { color: "#cbd5e1", lineHeight: 20 },
   quickLinks: { flexDirection: "row", flexWrap: "wrap" },
-  linkText: { color: "#86efac", fontWeight: "700", padding: 4, letterSpacing: 0.2 },
+  linkText: { color: "#FFDDBB", fontWeight: "700", padding: 4, letterSpacing: 0.2 },
   copy: { color: "#94a3b8", textAlign: "center", marginTop: 6, letterSpacing: 0.2 },
 });

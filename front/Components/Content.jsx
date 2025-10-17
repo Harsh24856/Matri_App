@@ -103,7 +103,7 @@ export default function Content() {
 
         {/* Stats */}
         <LinearGradient
-          colors={["#22c55e", "#f97316"]}
+          colors={["#FF9933", "#138808"]} // Saffron to Green
           start={{ x: 0, y: 0 }}
           end={{ x: 1, y: 0 }}
           style={[styles.statsSection, { paddingHorizontal: padX, paddingVertical: padY }]}
@@ -150,7 +150,7 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   heroGradientWord: {
-    color: "#16a34a",
+    color: "#FF9933", // Saffron
   },
   heroSub: {
     lineHeight: 22,
@@ -166,7 +166,7 @@ const styles = StyleSheet.create({
     flexWrap: "wrap",
   },
   primaryBtn: {
-    backgroundColor: "#22c55e",
+    backgroundColor: "#FF9933", // Saffron
     borderRadius: 999,
     elevation: 2,
   },
@@ -212,9 +212,9 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#e5e7eb",
   },
-  cardGreen: { backgroundColor: "#effdf5" },
-  cardOrange: { backgroundColor: "#fff7ed" },
-  cardMix: { backgroundColor: "#fffaf0" },
+  cardGreen: { backgroundColor: "#E8F5E9" }, // Light Green
+  cardOrange: { backgroundColor: "#FFF7ED" }, // Light Saffron
+  cardMix: { backgroundColor: "#F1F8E9" },   // Lighter Green
 
   iconDot: {
     width: 56,
@@ -225,9 +225,9 @@ const styles = StyleSheet.create({
     alignSelf: "center",
     marginBottom: 10,
   },
-  iconDotGreen: { backgroundColor: "#22c55e" },
-  iconDotOrange: { backgroundColor: "#f97316" },
-  iconDotMix: { backgroundColor: "#fb923c" },
+  iconDotGreen: { backgroundColor: "#138808" }, // Green
+  iconDotOrange: { backgroundColor: "#FF9933" }, // Saffron
+  iconDotMix: { backgroundColor: "#2E7D32" },   // Darker Green
   iconTick: { color: "#fff", fontSize: 22, fontWeight: "800" },
   iconBars: { color: "#fff", fontSize: 16, fontWeight: "800", letterSpacing: 1 },
   iconBook: { color: "#fff", fontSize: 20 },
@@ -263,6 +263,6 @@ const styles = StyleSheet.create({
     marginBottom: 4,
   },
   statLabel: {
-    color: "#dcfce7",
+    color: "#E0E0E0", // Light Gray
   },
 });
